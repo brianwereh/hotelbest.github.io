@@ -39,15 +39,17 @@ label {
 }
 
 /* Google map sidebar */
-#featurecardPanel > div > div > div.qqvbed-tJHJj {
+#featurecardPanel>div>div>div.qqvbed-tJHJj {
   background-color: #007bff !important;
 }
 
-input, textarea {
+input,
+textarea {
   border-radius: 10px !important;
 }
 
-a, a:hover {
+a,
+a:hover {
   color: inherit;
 }
 
@@ -108,10 +110,11 @@ a, a:hover {
   color: #fff;
   background: #003D7F;
   border-radius: 4px;
-  box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .15) inset, 0 6px 10px rgba(0, 0, 0, .15);
 }
 
-.banner::before, .banner::after {
+.banner::before,
+.banner::after {
   content: '';
   position: absolute;
   z-index: -1;
@@ -144,10 +147,11 @@ a, a:hover {
  */
 
 .navbar {
-  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
 }
 
-.nav-link, .dropdown-item {
+.nav-link,
+.dropdown-item {
   font-weight: 700;
 }
 
@@ -155,7 +159,7 @@ a, a:hover {
  * COVER
  */
 
- .cover .carousel-item > img {
+.cover .carousel-item>img {
   min-width: 100%;
   height: calc(100vh - 62px);
   object-fit: cover;
@@ -168,7 +172,7 @@ a, a:hover {
   color: #fff;
 }
 
-.cover .carousel-caption > a {
+.cover .carousel-caption>a {
   border-radius: 0;
 }
 
@@ -206,7 +210,8 @@ a, a:hover {
   margin-top: 2.8rem;
 }
 
-.homepage-desserts, .homepage-drinks {
+.homepage-desserts,
+.homepage-drinks {
   margin-top: 8rem;
 }
 
@@ -250,7 +255,8 @@ a, a:hover {
   padding-bottom: 8rem;
 }
 
-.card-2, .card-3 {
+.card-2,
+.card-3 {
   margin-top: 2.8rem;
 }
 
@@ -308,7 +314,7 @@ a, a:hover {
  * FOOTER
  */
 
-.page-footer {  
+.page-footer {
   color: #E5E5E5;
   padding-top: 4rem;
   font-size: 0.75rem;
@@ -317,7 +323,7 @@ a, a:hover {
   line-height: 1.75;
 }
 
-.page-footer > .container {
+.page-footer>.container {
   padding-bottom: 4rem;
 }
 
@@ -410,7 +416,7 @@ a, a:hover {
  * CONTACT SOCIAL
  */
 
- .contact-social {
+.contact-social {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -431,13 +437,13 @@ a, a:hover {
  * ABOUT
  */
 
- .about-jumbotron {
+.about-jumbotron {
   text-align: center;
   overflow: hidden;
   position: relative;
   background-color: #001F40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .about-jumbotron-bg {
@@ -482,14 +488,16 @@ a, a:hover {
   padding-bottom: 8rem;
 }
 
-.about-history-title h3, .about-job-openings-title h3 {
+.about-history-title h3,
+.about-job-openings-title h3 {
   font-family: 'Fredericka the Great', cursive;
   margin-bottom: 1rem;
   color: #007bff;
   font-size: 1.8rem;
 }
 
-.about-history-title p, .about-job-openings-title p {
+.about-history-title p,
+.about-job-openings-title p {
   font-size: 2.8rem;
 }
 
@@ -529,7 +537,7 @@ a, a:hover {
   height: 100%;
 }
 
-.reservations-form > form {
+.reservations-form>form {
   position: relative;
   z-index: 1;
   color: #fff;
@@ -552,12 +560,13 @@ a, a:hover {
   color: white;
 }
 
-.reservations-form input, .reservations-form textarea {
+.reservations-form input,
+.reservations-form textarea {
   background: none !important;
   border: 3px solid white !important;
   color: #d9d9d9 !important;
 }
- 
+
 /* 
  * CONTACT
  */
@@ -569,7 +578,7 @@ a, a:hover {
   max-width: 50em;
 }
 
-.contact-directions > dl > dt:nth-child(3) {
+.contact-directions>dl>dt:nth-child(3) {
   margin-top: 2.8rem;
 }
 
@@ -611,13 +620,15 @@ a, a:hover {
   color: #fff;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   background: none !important;
   border: 3px solid #fff !important;
   color: rgba(255, 255, 255, 1);
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -640,7 +651,7 @@ a, a:hover {
   position: relative;
   background-color: #001F40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .food-jumbotron-bg {
@@ -662,7 +673,7 @@ a, a:hover {
 }
 
 .menu-icon {
-  max-width: 45px; 
+  max-width: 45px;
 }
 
 .menu-icon-text {
@@ -702,7 +713,7 @@ a, a:hover {
   left: 20px;
   right: 20px;
   height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
+  border-top: 2px dotted rgba(0, 0, 0, 1);
   display: block;
   content: '';
 }
@@ -737,7 +748,7 @@ a, a:hover {
   position: relative;
   background-color: #001F40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .drinks-jumbotron-bg {
@@ -787,7 +798,7 @@ a, a:hover {
   left: 20px;
   right: 20px;
   height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
+  border-top: 2px dotted rgba(0, 0, 0, 1);
   display: block;
   content: '';
 }
@@ -822,7 +833,7 @@ a, a:hover {
   position: relative;
   background-color: #001F40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .desserts-jumbotron-bg {
@@ -876,7 +887,7 @@ a, a:hover {
   left: 20px;
   right: 20px;
   height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
+  border-top: 2px dotted rgba(0, 0, 0, 1);
   display: block;
   content: '';
 }
@@ -1001,23 +1012,28 @@ a, a:hover {
     display: block;
   }
 }
- 
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .homepage-desserts, .homepage-drinks {
+
+  .homepage-desserts,
+  .homepage-drinks {
     margin-top: 0;
   }
 
-  .card-2, .card-3 {
+  .card-2,
+  .card-3 {
     margin-top: 0;
   }
 
-  .desserts, .drinks, .contact-details {
+  .desserts,
+  .drinks,
+  .contact-details {
     margin-top: 0;
   }
 
   .menu-icon {
-    max-width: 60px; 
+    max-width: 60px;
   }
 
   .contact-details {
@@ -1058,7 +1074,7 @@ a, a:hover {
   .footer-social:not(:first-child) {
     margin-left: 0.7rem;
   }
-  
+
   .food-image {
     margin-bottom: 0;
   }
@@ -1080,17 +1096,23 @@ a, a:hover {
 }
 
 /* Phones - Landscape Mode */
-@media only screen and (min-width: 560px) and (max-width: 850px) and (orientation: landscape) { 
-  .food-jumbotron h1, .desserts-jumbotron h1, .drinks-jumbotron h1 {
+@media only screen and (min-width: 560px) and (max-width: 850px) and (orientation: landscape) {
+
+  .food-jumbotron h1,
+  .desserts-jumbotron h1,
+  .drinks-jumbotron h1 {
     margin-bottom: 1rem;
     font-size: 25px;
   }
+
   .about-arrow {
     display: none;
   }
+
   .menu-icon-text {
     display: none;
   }
+
   .menu-icon {
     max-width: 30px;
   }
